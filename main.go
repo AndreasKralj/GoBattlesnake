@@ -74,6 +74,10 @@ func move(state GameState) BattlesnakeMoveResponse {
 	// TODO: Step 1 - Prevent your Battlesnake from moving out of bounds
 	boardWidth := state.Board.Width
 	boardHeight := state.Board.Height
+  fmt.Println(boardWidth)
+  fmt.Println(boardHeight)
+  fmt.Println(myHead.X)
+  fmt.Println(myHead.Y)
 	// if (myHead.X+1 == boardWidth || myHead.Y+1 == boardWidth) || (myHead.X+1 == boardHeight || myHead.Y+1 == boardHeight) {
 
 	// }
