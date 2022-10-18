@@ -15,6 +15,7 @@ package main
 import (
 	"log"
 	"math/rand"
+  "fmt"
 )
 
 // info is called when you create your Battlesnake on play.battlesnake.com
